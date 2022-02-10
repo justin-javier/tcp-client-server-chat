@@ -1,0 +1,4 @@
+- Use 'python3 client.py username chat://localhost:port' where username and port are replaceable. Port is provided upon running 'python3 server.py' on another terminal
+- Once connected, the client can send messages to the server, and the server will send the message to any other connected clients. 
+- Utilizes a TCP connection
+- The server will print updates regarding its status, such as if a user joins or client leaves
